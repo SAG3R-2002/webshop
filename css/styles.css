@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial;
+  background-image: url(../img/achtergrond.jpg) ;
+  
+}
+
+/*NAV-------------------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #263673;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #293a7e;
+}
+
+.active {
+  background-color: #263673;
+}
+
+.active:hover {
+  background-color: #293a7e;
+}
+
+.winkelmand {
+  font-size: 14px;
+}
+
+
+/*GRIDLAYOUT-------------------------------*/
+
+
+
+.titel {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 20px 250px 200px 250px;
+
+}
+.pr {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  background-color: rgba(165, 165, 165, 0.229);
+  border-radius: 2px;
+  text-align: center;
+  
+}
+
+.pj {
+  border-radius: 5px;
+}
+
+.pjcolor {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.pjcolor2 {
+  color: #293a7e;
+}
+
+.project1 {
+ grid-column: 1;
+  grid-row: 2 / 6 ;
+  background-color: rgba(165, 165, 165, 0.319);
+  text-align: center;
+  transition: transform .5s;
+  border-radius: 2px;
+  
+}
+.project2 {
+  grid-column: 3;
+  grid-row: 2 / 6;
+  background-color: rgba(165, 165, 165, 0.319);
+  text-align: center;
+  transition: transform .5s;
+  border-radius: 2px;
+}
+.project3 {
+  grid-column: 2  ;
+  grid-row: 2 / 6;
+  background-color: rgba(165, 165, 165, 0.319);
+  text-align: center;
+  transition: transform .5s;
+  border-radius: 2px;
+}
+
+.project1:hover {
+transform: scale(1.05);
+background-color: rgba(165, 165, 165, 0.371);
+cursor: pointer;
+}
+
+.project2:hover {
+transform: scale(1.05);
+background-color: rgba(165, 165, 165, 0.371);
+cursor: pointer;
+}
+
+.project3:hover {
+transform: scale(1.05);
+background-color: rgba(165, 165, 165, 0.371);
+cursor: pointer;
+}
+
+
+
+ /*FOOTER-------------------------------*/
+ .footer {
+  padding: 40px 0;
+  background-color: #fff;
+  margin: 3px 0 0 0;
+  
+}
+
+
+.footer ul {
+  margin-top:  0;;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: c;
+  
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.copyright {
+  letter-spacing: 3px;
+  font-size: 9px;
+}

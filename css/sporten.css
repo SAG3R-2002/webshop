@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial;
+    background-image: url(../img/productachtergrond.png) ;
+    
+    
+  }
+
+/*NAV-------------------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #263673;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #293a7e;
+}
+
+.active {
+  background-color: #263673;
+}
+
+.active:hover {
+  background-color: #293a7e;
+}
+
+.winkelmand {
+  font-size: 14px;
+}
+
+
+/*-----GRIDLAYOUT-----------------------*/
+
+
+.assortimenten {
+  text-align: center;
+}
+
+.slogan {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 11px;
+}
+
+.assortimentenkleur {
+  background-color: rgba(255, 255, 255, 0.232);;
+  margin: 20px 355px 0 355px;
+  font-size: 10px;
+  border-style:none;
+  border-radius: 2px;
+  border-width: 1px;
+  color: #fff;
+}
+
+.voorraadstyle {
+  color:#263673;
+  font-size: 15px;
+  margin: 0 0 10px 0;
+}
+
+.lageprijs {
+  color: white;
+  font-size: 25px;
+}
+
+.gemprijs {
+  color: white;
+  font-size: 25px;
+}
+
+.laagprijs {
+  color: white;
+  font-size: 25px;
+}
+
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    margin: 28px 350px 20px 350px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.232);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    border-style:none;
+    text-align: center;
+    border-radius: 2px;
+    transition: transform .1s;
+  }
+
+
+
+  .grid-item:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+      transform: scale(1.02);
+  }
+
+.benaming {
+  color:white;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.prijzen {
+  color: #fff;
+  font-size: 10px;
+}
+
+/*BUTTON-------------------------------*/
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #2a3b6e7e;;
+  bottom: 40px;
+  right: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+.arrowsize {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+
+
+
+
+  /*FOOTER-------------------------------*/
+ .footer {
+    padding: 40px 0;
+    background-color: #fff;
+    margin: 3px 0 0 0;
+    
+  }
+  
+  
+  .footer ul {
+    margin-top:  0;;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: c;
+    
+  }
+  
+  .footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  .copyright {
+    letter-spacing: 3px;
+    font-size: 9.4px;
+  }
